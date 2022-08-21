@@ -2,7 +2,7 @@
 import NoteContext from "./noteContext";
 import { useState } from "react";
 const NoteState=(props)=>{
-  const host="https://noter4.herokuapp.com/"
+  const host="https://noter4.herokuapp.com"
   const notesInitial=[]
   const [notes,setnotes]=useState(notesInitial)
 
